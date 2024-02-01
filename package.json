@@ -1,5 +1,5 @@
 {
-  "name": "odoo-ts",
+  "name": "odoo-api-ts",
   "version": "1.0.0",
   "description": "Typescript client to call Odoo RPC's through xmlrpc library.",
   "main": "dist/index.mjs",

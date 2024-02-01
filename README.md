@@ -25,13 +25,13 @@ $ npm install odoo-ts
 ## Usage
 
 ```js
-var Odoo = require("odoo-xmlrpc");
+import Odoo from "odoo-api-ts";
 ```
 
 ### Configuration
 
 ```js
-import Odoo from "odoo-ts";
+import Odoo from "odoo-api-ts";
 
 var odoo = new Odoo({
   url: "<url>",
