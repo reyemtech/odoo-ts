@@ -1,6 +1,6 @@
 {
   "name": "odoo-api-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typescript client to call Odoo RPC's through xmlrpc library.",
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
