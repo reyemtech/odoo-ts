@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reyemtech/odoo-ts"
+    "url": "git+https://github.com/reyemtech/odoo-ts.git"
   },
   "homepage": "https://github.com/reyemtech/odoo-ts",
   "bugs": "https://github.com/reyemtech/odoo-ts/issues",
