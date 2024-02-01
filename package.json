@@ -1,0 +1,35 @@
+{
+  "name": "odoo-ts",
+  "version": "1.0.0",
+  "description": "Typescript client to call Odoo RPC's through xmlrpc library.",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Mario Meyer",
+    "email": "mario@reyem.tech"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reyemtech/odoo-ts"
+  },
+  "homepage": "https://github.com/reyemtech/odoo-ts",
+  "bugs": "https://github.com/reyemtech/odoo-ts/issues",
+  "directories": {
+    "lib": "./dist/"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "start": "yarn build -- --watch"
+  },
+  "devDependencies": {
+    "@types/xmlrpc": "^1.3.10",
+    "tsup": "^8.0.1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "url": "^0.11.3",
+    "xmlrpc": "^1.3.2"
+  }
+}
