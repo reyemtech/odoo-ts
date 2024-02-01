@@ -9,18 +9,8 @@ Works better with NodeJS v11.16 and further
 ## Installation
 
 ```sh
-$ npm install odoo-ts
+$ npm install --save odoo-api-ts
 ```
-
-## Methods
-
-### odoo.connect(callback)
-
-### odoo.execute_kw(model,method,params,callback)
-
-### odoo.exec_workflow(model,method,params,callback)
-
-### odoo.render_report(report,params,callback)
 
 ## Usage
 
