@@ -1,4 +1,7 @@
-import { Client, createClient, createSecureClient } from "xmlrpc";
+import xmlrpc, { Client } from "xmlrpc";
+
+const createClient = xmlrpc.createClient;
+const createSecureClient = xmlrpc.createSecureClient;
 
 import {
     AbstractExecuteParams,
